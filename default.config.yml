@@ -7,7 +7,7 @@ configure_osx: false
 configure_zsh: true
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: true
+configure_dock: false
 dockitems_remove:
   - "App Store"
   - Calendar
@@ -82,6 +82,7 @@ homebrew_installed_packages:
   - pwgen
   - pyenv
   - ripgrep
+  - sshfs
   # - sipcalc
   - telnet
   - tmate
@@ -101,18 +102,27 @@ homebrew_taps:
 homebrew_cask_accept_external_apps: true
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - copyclip
   - docker
   - drawio
   - firefox
   - google-chrome
   # - google-earth-pro
   - iterm2
+  - logi-options-plus
   # - logitech-camera-settings
   # - serial
+  - karabiner-elements
+  - rectangle
   - slack
   - sublime-text
+  - signal
+  - tailscale
+  - telegram
   - visual-studio-code
+  - whatsapp
   - wireshark
+  - yubico-yubikey-manager
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
