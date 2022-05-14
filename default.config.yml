@@ -1,7 +1,7 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
+configure_dotfiles: false
 configure_terminal: false
 configure_osx: false
 configure_zsh: true
@@ -25,8 +25,8 @@ dockitems_remove:
   - Podcasts
   - TV
 dockitems_persist:
-  - name: "Safari"
-    path: "/Applications/Safari.app/"
+  - name: "Google Chrome"
+    path: "/Applications/Google Chrome.app/"
     pos: 1
   - name: "Messages"
     path: "/System/Applications/Messages.app/"
@@ -37,8 +37,8 @@ dockitems_persist:
   - name: "iTerm"
     path: "/Applications/iTerm.app/"
     pos: 4
-  - name: "Tweetbot"
-    path: "/Applications/Tweetbot.app/"
+  - name: "Sublime Text"
+    path: "/Applications/Sublime Text.app/"
     pos: 5
   - name: "Slack"
     path: "/Applications/Slack.app/"
@@ -68,21 +68,21 @@ dotfiles_files:
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - coreutils
-  - fd
+  # - fd
   - fzf
   - git
-  - git-lfs
+  # - git-lfs
   - gnupg
   - go
-  - httpie
-  - irrtoolset
+  # - httpie
+  # - irrtoolset
   - jq
   - mtr
-  - pinentry-mac
+  # - pinentry-mac
   - pwgen
   - pyenv
   - ripgrep
-  - sipcalc
+  # - sipcalc
   - telnet
   - tmate
   - tmux
@@ -105,10 +105,10 @@ homebrew_cask_apps:
   - drawio
   - firefox
   - google-chrome
-  - google-earth-pro
+  # - google-earth-pro
   - iterm2
-  - logitech-camera-settings
-  - serial
+  # - logitech-camera-settings
+  # - serial
   - slack
   - sublime-text
   - visual-studio-code
@@ -116,10 +116,10 @@ homebrew_cask_apps:
   - zoom
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-#mas_installed_apps: []
-mas_installed_apps:
-  - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
-  - { id: 413857545, name: "Divvy - Window Manager" }
+mas_installed_apps: []
+# mas_installed_apps:
+#   - { id: 1384080005, name: "Tweetbot 3 for Twitter" }
+#   - { id: 413857545, name: "Divvy - Window Manager" }
 mas_uninstalled_apps:
   - { id: 408981434, name: "iMovie" }
   - { id: 682658836, name: "GarageBand" }
