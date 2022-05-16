@@ -78,6 +78,7 @@ homebrew_installed_packages:
   # - irrtoolset
   - jq
   - mtr
+  - openssh
   # - pinentry-mac
   - pwgen
   - pyenv
