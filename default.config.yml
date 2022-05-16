@@ -74,7 +74,7 @@ homebrew_installed_packages:
   # - git-lfs
   - gnupg
   - go
-  # - httpie
+  - httpie
   # - irrtoolset
   - jq
   - mtr
@@ -82,7 +82,7 @@ homebrew_installed_packages:
   - pwgen
   - pyenv
   - ripgrep
-  # - sipcalc
+  - sipcalc
   - tailscale
   - telnet
   - tmate
