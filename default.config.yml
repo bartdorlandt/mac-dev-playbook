@@ -65,6 +65,7 @@ dotfiles_files:
   # - .osx
   # - .vimrc
 
+homebrew_upgrade_all_packages: true
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - coreutils
